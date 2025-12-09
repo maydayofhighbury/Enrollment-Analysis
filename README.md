@@ -13,19 +13,19 @@ The data for this project was extracted from the official Common Data Sets publi
 ## Key Insights and Visualizations
 
 ### 1. Enrollment Recovery Trends
-![Enrollment Trend](01_Enrollment_Trend.png)
+![Enrollment Trend](images/01_Enrollment_Trend.png)
 
 **Analysis:**
 The university experienced a "V-shaped" recovery following the global pandemic. Total undergraduate enrollment peaked at 61,456 in 2020 before declining by approximately 4.4% to a low of 58,749 in 2022. The data indicates a strong rebound in the subsequent years, with the 2024-2025 academic year reaching 59,649 students. This stabilization suggests that recruitment strategies implemented during the recovery phase have been effective, though enrollment has not yet fully returned to the 2020 peak.
 
 ### 2. Gender Gap in Full-Time Enrollment
-![Gender Gap](02_Gender_Gap.png)
+![Gender Gap](images/02_Gender_Gap.png)
 
 **Analysis:**
 A persistent gender gap exists within the full-time undergraduate population. Across all five years analyzed, female enrollment has consistently exceeded male enrollment by a margin of approximately 3,000 to 4,000 students annually. This trend is consistent with national higher education patterns but highlights a potential area for targeted recruitment if a balanced gender ratio is a strategic priority.
 
 ### 3. Demographic Shifts and Diversity
-![Demographic Trends](03_Demographic_Trends.png)
+![Demographic Trends](images/03_Demographic_Trends.png)
 
 **Analysis:**
 The racial and ethnic composition of the student body is undergoing a significant transformation.
@@ -34,19 +34,19 @@ The racial and ethnic composition of the student body is undergoing a significan
 * **Asian & Black/African American:** These populations remain relatively stable, with slight fluctuations correlating with overall enrollment trends.
 
 ### 4. Degree Production Pipeline
-![Degree Production](04_Degree_Production.png)
+![Degree Production](images/04_Degree_Production.png)
 
 **Analysis:**
 Despite fluctuations in enrollment, the university's output of degrees remains highly stable. Bachelor's degree conferrals hover consistently around the 14,900 mark annually. This resilience suggests that retention and graduation pipelines remained robust even during periods of lower enrollment. However, Doctoral degree production shows a slight decline in the most recent year (290 in 2024 vs. 365 in 2022), which warrants further investigation into graduate research support and funding.
 
 ### 5. Resource Load: Full-Time vs. Part-Time
-![Student Load Status](05_Student_Load_Status.png)
+![Student Load Status](images/05_Student_Load_Status.png)
 
 **Analysis:**
 The majority of the student population attends full-time, placing a consistent load on campus resources such as housing, dining, and classroom space. The ratio of full-time to part-time students has remained relatively constant, indicating that the fundamental nature of the student experience at UCF has not shifted significantly toward part-time study despite the increase in online learning options post-pandemic.
 
 ### 6. Student Success: Freshman Retention Rate
-![Retention KPI](06_Retention_KPI.png)
+![Retention KPI](images/06_Retention_KPI.png)
 
 **Analysis:**
 The Freshman Retention Rate is a primary Key Performance Indicator (KPI) for student satisfaction and academic support quality. The data shows exceptional stability, fluctuating only slightly between 91.9% and 93.0% over the five-year period. Maintaining a retention rate above 90% is a strong indicator of effective First-Year Experience programs and successful academic advising.
@@ -66,5 +66,5 @@ Based on this longitudinal analysis, the following actions are recommended for u
 ## How to Run This Project
 1.  Clone this repository.
 2.  Ensure you have Python installed with `pandas`, `matplotlib`, and `seaborn` libraries.
-3.  Run the Jupyter Notebook `enrollment_analysis.ipynb`.
+3.  Run `enrollment_analysis.ipynb`.
 4.  The script will generate the 6 visualization files in the root directory.
